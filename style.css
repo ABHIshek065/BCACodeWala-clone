@@ -273,3 +273,11 @@ i{
     
   }
 }
+
+
+@media (max-width: 477px){
+    .head-h1 {
+        font-size: 21px;
+        line-height: 28px;
+      }
+}
