@@ -160,7 +160,7 @@ footer{
 
 .logo-img{
     width:40px;
-    /* margin-right: -24px; */
+    margin-right: 40px;
 }
 
 .footer-content{
@@ -270,9 +270,14 @@ i{
     width: 30%;
   }
 
-  .footer-img{
-    margin-right: -80px;
+  .logo-img{
+    width:40px;
+    margin-right: 106px;
 }
+
+  /* .footer-img{
+    margin-right: -80px;
+} */
 }
 
 
