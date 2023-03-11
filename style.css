@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f0f4f5;
+  width: 100%;
+}
+
+.section-pad {
+  padding-inline: 55px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.nav-a {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo {
+  margin-left: 55px;
+  margin-right: 12px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 12px;
+  color: #000;
+}
+
+.links {
+  padding-right: 55px;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.head-img {
+  width: 500px;
+}
+
+.head-h1 {
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 18px;
+}
+
+.head-h1 span {
+  color: lightseagreen;
+}
+
+.head-para {
+  font-size: 19px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  margin-bottom: 22px;
+}
+
+.btn {
+  outline: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 12px;
+}
+
+#comments {
+  margin-top: 75px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.comment img {
+  width: 55px;
+  /* margin-bottom: 25px; */
+}
+
+.comment span {
+  border-bottom: 1px solid red;
+}
+
+.comment h2 {
+  font-size: 44px;
+  line-height: 67px;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  margin: 12px auto;
+  border-top: 1px solid red;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-inline: 55px;
+  margin-bottom: 35px;
+}
+
+.card {
+  width: 350px;
+  height: 240px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 22px 22px;
+  text-align: center;
+  margin: 12px;
+}
+.card-img {
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.card p {
+  line-height: 25px;
+  padding-bottom: 28px;
+}
+
+@media (max-width: 799px) {
+  .link {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 22px;
+  }
+  .head-img {
+    width: 300px;
+  }
+
+  .head-para {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .head-h1 {
+    font-size: 21px;
+    line-height: 36px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 350px;
+    height: 280px;
+    overflow: hidden;
+  }
+
+  .comment h2 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  hr {
+    width: 30%;
+  }
+}
