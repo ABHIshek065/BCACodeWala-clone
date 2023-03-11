@@ -150,6 +150,10 @@ hr {
     display: none;
   }
 
+  .section-pad {
+    padding-inline: 25px;
+  }
+
   .logo {
     margin-left: 22px;
   }
