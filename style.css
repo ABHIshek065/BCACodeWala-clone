@@ -150,17 +150,17 @@ hr {
 /* footer */
 
 footer{
-    padding:12px 64px;
+    padding:30px 90px;
     background-color: #fff;
 }
 
 .footer-img{
-    margin-right: -140px;
+    margin-right: -90px;
 }
 
 .logo-img{
     width:40px;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .footer-content{
@@ -171,7 +171,7 @@ footer{
 
 
 .icons{
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .icons-flex{
@@ -191,6 +191,18 @@ i{
     color: #2b8ff3;
 }
 
+.icons-flex a{
+text-decoration: none;
+color: #000;
+font-size: 18px;
+}
+
+.location{
+  color: rgb(215, 67, 9);
+  font-size: 16px;
+  padding: 8px;
+}
+
 .content{
     padding-left: 12px;
     margin: 12px;
@@ -201,6 +213,11 @@ i{
     line-height: 28px;
 }
 
+.content p{
+  font-size: 22px;
+    line-height: 28px;
+}
+
 
 .a-link{
     display: flex;
@@ -208,16 +225,64 @@ i{
     text-decoration: none;
     color: #000;
     padding: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .copyright{
     text-align: center;
     font-size: 18px;
     padding: 16px;
+}
+
+.copyright a{
+  color: #0d6efd;
+}
+
+
+/* profile */
+
+#input{
+  text-align: center;
+  margin: 12px;
+}
+
+.input-field{
+  outline: none;
+    display: flex;
+    flex-direction: column;
     background-color: #f0f4f5;
 }
 
+input{
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+input:focus{
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  color: #000;
+  outline-color: #2b8ff3;
+}
+
+.pad{
+padding: 16px;
+margin: 12px;
+border-radius: 8px;
+}
+
+
+.btn-pwd{
+  outline: none;
+  padding: 12px 45px;
+  margin-top: 12px;
+  background-color: #333333;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+}
 
 
 
@@ -275,9 +340,6 @@ i{
     margin-right: 106px;
 }
 
-  /* .footer-img{
-    margin-right: -80px;
-} */
 }
 
 
